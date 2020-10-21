@@ -1,6 +1,47 @@
 .headerContainer {
   width: 100%;
   border: 1px solid blue;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.brandContainer {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  height: 175px;
+  justify-content: space-evenly;
+}
+
+.selfPic {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.brandImage {
+  height: 50px;
+  object-fit: cover;
+}
+
+.titleContainer {
+  border: 1px solid green;
+  padding: 0 5rem;
+  font-size: 1.2rem;  
+}
+
+.linksContainer {
+  border: 1px solid purple;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.linksContainer img {
+  height: 3rem;
+  margin: 1rem;
 }
 
 .bodyContainer {
