@@ -12,19 +12,14 @@ export default function Home() {
       <div className={styles.headerContainer}>
         <div className={styles.brandContainer}>
           <img
-            className={styles.selfPic}
-            src="/images/self.jpg"
-            alt="Jonathan King">
-          </img>
-          <img
             className={styles.brandImage}
             src="/images/jklogo.png"
             alt="Jonathan King personal brand logo">
           </img>
         </div>
         <div className={styles.titleContainer}>
-          <h1>Jonathan King</h1>
-          <h2>Full Stack Web Developer</h2>
+          <h1 className={styles.siteTitle}>Jonathan King</h1>
+          <h2 className={styles.siteSubtitle}>Full Stack Web Developer</h2>
         </div>
         <div className={styles.linksContainer}>
           <img
