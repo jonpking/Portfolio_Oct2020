@@ -16,6 +16,10 @@
   left: 0;
 }
 
+.navContainer Link {
+  text-decoration: none;
+}
+
 .bodyContainer {
   border: 1px solid black;
   height: 100vh;
