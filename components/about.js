@@ -2,6 +2,8 @@ import styles from "../styles/Home.module.css"
 
 export default function About() {
     return (
-        <p>About</p>
+        <div id="about">
+            <p>About</p>
+        </div>
     )
 }
