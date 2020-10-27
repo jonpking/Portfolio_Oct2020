@@ -1,4 +1,54 @@
-.nav {
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar li {
+    margin: 2rem 0;
+}
+
+.navLinks {
     list-style-type: none;
-    color: white;
+    color: black;
+    font-size: 2rem;
+    padding: 0;
+}
+
+.selfDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.selfDiv h2 {
+    margin: 0;
+}
+
+.selfImage {
+    height: 5rem;
+    width: 5rem;
+}
+
+.jklogo {
+    height: 4rem;
+    width: 4rem;
+}
+
+.socialDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.githubImage {
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 1rem;
+}
+
+.linkedinImage {
+    height: 3rem;
+    width: 3rem;
 }
