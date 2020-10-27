@@ -13,6 +13,11 @@
     color: black;
     font-size: 2rem;
     padding: 0;
+    margin: 2rem 0 3rem 0;
+}
+
+.navLinks a:hover {
+    color: white;
 }
 
 .selfDiv {
@@ -26,9 +31,14 @@
     margin: 0;
 }
 
+.selfDiv h3 {
+    margin: 0;
+}
+
 .selfImage {
     height: 5rem;
     width: 5rem;
+    border-radius: 50%;
 }
 
 .jklogo {

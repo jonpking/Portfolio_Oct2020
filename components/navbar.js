@@ -5,9 +5,10 @@ export default function Navbar() {
     return (
         <div className={styles.navbar}>
             <div className={styles.selfDiv}>
-                <img src="/images/self.jpg" className={styles.selfImage} />
                 <img src="/images/jklogo.png" className={styles.jklogo} />
                 <h2>Jonathan King</h2>
+                <h3>Full-Stack</h3>
+                <h3>Web Developer</h3>
             </div>
             <ul className={styles.navLinks}>
                 <li>
