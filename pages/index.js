@@ -20,15 +20,9 @@ export default function Home() {
         </div>
 
         <div className={styles.bodyContainer}>
-          <section className={styles.sections}>
-            <About />
-          </section>
-          <section className={styles.sections}>
-            <Projects />
-          </section>
-          <section className={styles.sections}>
-            <Contact />
-          </section>
+          <About />
+          <Projects />
+          <Contact />
         </div>
 
       </div>

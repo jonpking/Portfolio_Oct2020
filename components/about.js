@@ -1,9 +1,9 @@
-import styles from "../styles/Home.module.css"
+import styles from "../styles/About.module.css"
 
 export default function About() {
     return (
-        <div id="about">
-            <p>About</p>
+        <div id="about" className={styles.about}>
+            About
         </div>
     )
 }
