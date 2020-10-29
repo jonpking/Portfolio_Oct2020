@@ -2,6 +2,7 @@ import Head from "next/head"
 import Navbar from "../components/navbar.js"
 import About from "../components/about.js"
 import Projects from "../components/projects.js"
+import Contact from "../components/contact.js"
 import styles from "../styles/Home.module.css"
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
         <div className={styles.bodyContainer}>
           <About />
           <Projects />
+          <Contact />
         </div>
 
       </div>
