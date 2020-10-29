@@ -1,4 +1,34 @@
 .contact {
-    background-color: cornflowerblue;
+    background-color: rgb(119, 203, 218);
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.contactCard {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contactTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactTitle h2 {
+    font-size: 3.5rem;
+    margin: 1rem;
+}
+
+.contactTitle h3 {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.contactInfo {
+    font-size: 1.5rem;
 }
