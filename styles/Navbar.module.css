@@ -47,16 +47,16 @@
 .socialDiv {
     display: flex;
     justify-content: space-evenly;
-    width: 200px;
+    width: 100%;
     margin: 1.2rem 0;
 }
 
 .githubImage {
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 2.25rem;
+    width: 2.25rem;
 }
 
 .linkedinImage {
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 2.25rem;
+    width: 2.25rem;
 }
