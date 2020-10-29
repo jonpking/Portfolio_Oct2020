@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #0785CE;
+    font-family: 'Electrolize', sans-serif;
 }
 
 .aboutCard {
@@ -22,13 +24,17 @@
 .aboutContent p {
     margin: 1.2rem;
     font-size: 1.75rem;
+    text-shadow: -1px -1px 1px rgba(150, 150, 150, 0), 
+                  1px 1px 1px rgba(50, 50, 50, 0.75);
 }
 
 .selfImage {
+    border: 1px solid black;
     height: 275px;
     width: 275px;
     object-fit: cover;
     border-radius: 50%;
+    box-shadow: 5px 5px 5px 0px #000000;
 }
 
 .aboutLinks {
@@ -40,6 +46,16 @@
 
 .link {
     border: 1px solid black;
-    padding: .5rem;
+    padding: .3rem;
+    width: 250px;
+    text-align: center;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px #000000;
+    background-color: #cbc6c0;
+    text-shadow: -1px -1px 1px rgba(150, 150, 150, 0), 
+                  1px 1px 1px rgba(50, 50, 50, 0.75);
+}
+
+.link:hover {
+    background-color: #aca7a1;
 }
