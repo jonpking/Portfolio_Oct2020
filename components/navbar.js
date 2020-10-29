@@ -5,10 +5,15 @@ export default function Navbar() {
     return (
         <div className={styles.navbar}>
             <div className={styles.selfDiv}>
-                <img src="/images/jklogo.png" className={styles.jklogo} />
                 <h2>Jonathan King</h2>
-                <h3>Full-Stack</h3>
-                <h3>Web Developer</h3>
+                <p>JonPKing@gmail.com</p>
+                <p>(602)703-1741</p>
+                <p>2236 E Devonshire Ave,</p>
+                <p>Phoenix, AZ 85016</p>
+            </div>
+            <div className={styles.socialDiv}>
+                <img src="/images/github.png" className={styles.githubImage} />
+                <img src="/images/linkedin.png" className={styles.linkedinImage} />
             </div>
             <ul className={styles.navLinks}>
                 <li>
@@ -27,10 +32,6 @@ export default function Navbar() {
                     </Link>
                 </li>
             </ul>
-            <div className={styles.socialDiv}>
-                <img src="/images/github.png" className={styles.githubImage} />
-                <img src="/images/linkedin.png" className={styles.linkedinImage} />
-            </div>
         </div>
     )
 }
