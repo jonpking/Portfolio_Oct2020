@@ -12,7 +12,9 @@ export default function Home() {
       <Head>
         <title>Jonathan King</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+        <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet"></link>
+        </Head>
 
       <div className={styles.pageWrapper}>
         <div className={styles.navContainer}>
