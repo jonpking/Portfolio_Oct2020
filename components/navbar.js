@@ -8,8 +8,6 @@ export default function Navbar() {
                 <h2>Jonathan King</h2>
                 <p>JonPKing@gmail.com</p>
                 <p>(602)703-1741</p>
-                <p>2236 E Devonshire Ave,</p>
-                <p>Phoenix, AZ 85016</p>
             </div>
             <div className={styles.socialDiv}>
                 <i className={`${styles.githubIcon} fab fa-github-square fa-3x`}></i>
