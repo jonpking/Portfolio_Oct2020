@@ -52,6 +52,14 @@
     margin: 1.2rem 0;
 }
 
+.githubIcon {
+    color: #24292e;
+}
+
+.linkedinIcon {
+    color: #0073b1;
+}
+
 .githubImage {
     height: 2.25rem;
     width: 2.25rem;

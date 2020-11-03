@@ -12,8 +12,8 @@ export default function Navbar() {
                 <p>Phoenix, AZ 85016</p>
             </div>
             <div className={styles.socialDiv}>
-                <img src="/images/github.png" className={styles.githubImage} />
-                <img src="/images/linkedin.png" className={styles.linkedinImage} />
+                <i className={`${styles.githubIcon} fab fa-github-square fa-3x`}></i>
+                <i className={`${styles.linkedinIcon} fab fa-linkedin fa-3x`}></i>
             </div>
             <ul className={styles.navLinks}>
                 <li>
