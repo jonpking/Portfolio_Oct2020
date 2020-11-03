@@ -8,16 +8,12 @@ export default function Contact() {
                     <h2>Jonathan King</h2>
                     <h3>Full-Stack Web Developer</h3>
                 </div>
+                <hr className={styles.hr} />
                 <div className={styles.contactInfo}>
-                    <div>
-                        <p>JonPKing@gmail.com</p>
-                        <p>(602)703-1741</p>
-                        <p>2236 E Devonshire, Phoenix, AZ 85016</p>
-                    </div>
-                    <div>
-                        <p>linkedin.com/in/jonpking314</p>
-                        <p>github.com/jonpking</p>
-                    </div>
+                    <p><i className={`fas fa-envelope`}></i>JonPKing@gmail.com</p>
+                    <p><i className={`fas fa-phone-alt`}></i>(602)703-1741</p>
+                    <p><i className={`${styles.linkedinIcon} fab fa-linkedin`}></i>linkedin.com/in/jonpking314</p>
+                    <p><i className={`${styles.githubIcon} fab fa-github-square`}></i>github.com/jonpking</p>
                 </div>
             </div>
         </div>
