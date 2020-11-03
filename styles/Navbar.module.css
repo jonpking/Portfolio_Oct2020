@@ -18,7 +18,7 @@
     color: black;
     font-size: 2rem;
     padding: 0;
-    margin: 6rem 0;
+    margin: 3rem 0;
 }
 
 .navLinks a:hover {
@@ -31,18 +31,22 @@
     align-items: center;
 }
 
-.selfDiv p {
-    margin: 5px 0;
-}
-
 .selfDiv h2 {
     margin: 0;
+    font-size: 1.5rem;
 }
 
-.selfImage {
-    height: 5rem;
-    width: 5rem;
-    border-radius: 50%;
+.selfDiv p {
+    margin: 5px 0;
+    font-size: .9rem;
+}
+
+.hr {
+    width: 100%;
+    margin-top: 2rem;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 .socialDiv {
@@ -58,14 +62,4 @@
 
 .linkedinIcon {
     color: #0073b1;
-}
-
-.githubImage {
-    height: 2.25rem;
-    width: 2.25rem;
-}
-
-.linkedinImage {
-    height: 2.25rem;
-    width: 2.25rem;
 }

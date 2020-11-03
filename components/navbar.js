@@ -10,9 +10,10 @@ export default function Navbar() {
                 <p>(602)703-1741</p>
             </div>
             <div className={styles.socialDiv}>
-                <i className={`${styles.githubIcon} fab fa-github-square fa-3x`}></i>
-                <i className={`${styles.linkedinIcon} fab fa-linkedin fa-3x`}></i>
+                <i className={`${styles.githubIcon} fab fa-github-square fa-2x`}></i>
+                <i className={`${styles.linkedinIcon} fab fa-linkedin fa-2x`}></i>
             </div>
+            <hr className={styles.hr} />
             <ul className={styles.navLinks}>
                 <li>
                     <Link href="#about">
