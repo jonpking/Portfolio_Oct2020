@@ -1,5 +1,12 @@
 .projectCard {
-    width: 40%;
+    display: grid;
+    grid-template-rows: 50px 300px;
+    grid-template-columns: 450px 250px;
+    justify-items: center;
+    align-items: center;
+    width: 730px;
+    padding: 20px 0 0 30px;
+    margin: 0 25px;
     border: 1px solid black;
     box-shadow: 5px 5px 5px 0px #000000;
     text-align: center;
@@ -8,14 +15,16 @@
 }
 
 .projectCard img {
-    width: 150px;
-    height: 150px;
+    width: 75%;
+    height: 75%;
+    border: 1px solid black;
+    border-radius: 10%;
 }
 
 .projectCard a {
     border: 1px solid black;
-    padding: .3rem;
-    width: 250px;
+    padding: 5px 20px;
+    margin: 5px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 0px #000000;
@@ -26,4 +35,8 @@
 
 .projectCard a:hover {
     background-color: #aca7a1;
+}
+
+.links {
+    width: 400px;
 }
